@@ -106,8 +106,10 @@
                 Немного обо мне
             </h2>
             <p class="about__text">
-                Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они
-                в буквенных домах на берегу Семантика большого языкового океана. Маленький ручеек Даль журчит по всей стране
+                Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут
+                они
+                в буквенных домах на берегу Семантика большого языкового океана. Маленький ручеек Даль журчит по всей
+                стране
                 и обеспечивает ее всеми необходимыми правилами. Эта парадигматическая страна, в которой жаренные члены
                 предложения залетают прямо.
             </p>
@@ -120,7 +122,7 @@
                 </button>
             </div>
         </div>
-             <img src="img/about-photo.jpg" alt="my photo">
+        <img src="img/about-photo.jpg" alt="my photo">
     </section>
 
     <section class="center services services_counter section-with-bg-image">
@@ -154,7 +156,7 @@
                 Довольных клиентов
             </h3>
             <p class="services__desc">
-                Результат — улыбка на лице и ощущение счастья            </p>
+                Результат — улыбка на лице и ощущение счастья </p>
         </article>
     </section>
 
@@ -175,7 +177,8 @@
             </h3>
         </article>
         <article class="services__item">
-            <img class="services__img" src="img/news-3.jpg" alt="8 советов, как оставаться продуктивным и не сойти с ума">
+            <img class="services__img" src="img/news-3.jpg"
+                 alt="8 советов, как оставаться продуктивным и не сойти с ума">
             <h3 class="services__title">
                 8 советов, как оставаться продуктивным и не сойти с ума
             </h3>
@@ -186,17 +189,27 @@
         <h2 class="subtitle">
             Записаться на прием
         </h2>
-        <input type="text" class="contact-form__input">
-        <input type="text" class="contact-form__input">
-        <input type="text" class="contact-form__input">
-        <textarea class="contact-form__input contact-form__input_textarea"></textarea>
+        <input type="text" class="contact-form__input" placeholder="Ваше имя *">
+        <input type="tel" class="contact-form__input" placeholder="Ваш телефон *">
+        <div class="contact-form__select">
+            <select class="contact-form__select-item">
+                <option>Тема встречи *</option>
+                <option></option>
+                <option></option>
+            </select>
+            <div class="contact-form__select-img">
+                <img src="./img/caret-down-solid.svg" alt="">
+            </div>
+        </div>
+        <textarea class="contact-form__input contact-form__input_textarea" placeholder="Пожелания"></textarea>
 
         <label class="contact-form__checkbox">
             <input type="checkbox">
+            <span class="contact-form__checkbox-checked"></span>
             Я согласен с политикой конфиденциальности
         </label>
 
-        <button class="btn" type="submit">
+        <button class="btn contact-form-btn" type="submit">
             Отправить
         </button>
     </form>
