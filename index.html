@@ -190,19 +190,19 @@
         <h2 class="subtitle">
             Записаться на прием
         </h2>
-        <input type="text" class="contact-form__input" placeholder="Ваше имя *">
-        <input type="tel" class="contact-form__input" placeholder="Ваш телефон *">
+        <input type="text" class="contact-form__input" required placeholder="Ваше имя *">
+        <input type="tel" class="contact-form__input" required placeholder="Ваш телефон *">
         <div class="contact-form__select">
-            <select class="contact-form__select-item">
-                <option>Тема встречи *</option>
-                <option></option>
-                <option></option>
+            <select class="contact-form__select-item" required>
+                <option value="option1">Тема встречи *</option>
+                <option value="option2"></option>
+                <option value="option3"></option>
             </select>
             <div class="contact-form__select-img">
                 <img src="./img/caret-down-solid.svg" alt="">
             </div>
         </div>
-            <textarea class="contact-form__input contact-form__input_textarea" placeholder="Пожелания"></textarea>
+        <textarea class="contact-form__input contact-form__input_textarea" placeholder="Пожелания"></textarea>
         <label class="contact-form__checkbox">
             <input type="checkbox">
             <span class="contact-form__checkbox-checked"></span>
@@ -218,8 +218,8 @@
         <h2 class="subtitle">
             Записаться со скидкой 50 грн
         </h2>
-        <input type="text" class="subscribe-form__input" placeholder="Ваше имя *">
-        <input type="tel" class="subscribe-form__input" placeholder="Ваш телефон *">
+        <input type="text" class="subscribe-form__input" required placeholder="Ваше имя *">
+        <input type="tel" class="subscribe-form__input" required placeholder="Ваш телефон *">
         <button class="subscribe-form__btn btn" type="submit">
             Записаться со скидкой
         </button>
@@ -235,8 +235,6 @@
     <a href="#" class="logo">
         <img src="img/logo.png" alt="logo">
     </a>
-
-
     <ul class="contacts-list">
         <li class="contacts-list__item">
             <a href="#" class="contacts-list__link">
