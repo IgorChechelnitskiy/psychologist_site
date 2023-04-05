@@ -186,7 +186,6 @@ img {
 }
 
 
-
 /*contact-form*/
 .contact-form {
     display: grid;
@@ -373,6 +372,7 @@ img {
     height: 11px;
     background-color: #2D5E5E;
     opacity: 0;
+    pointer-events: none;
 }
 
 .subscribe-form__checkbox input[type="checkbox"]:checked + .subscribe-form__checkbox-checked:before {
@@ -442,6 +442,7 @@ img {
     grid-column: 1 / -1;
     text-align: left;
 }
+
 /*services*/
 
 /*about*/

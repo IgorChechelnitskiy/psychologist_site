@@ -69,9 +69,6 @@
         padding-right: calc(50vw - 585px);
     }
 
-    .about__button .btn_bordered {
-        margin-bottom: 20px;
-    }
 
     .about__title {
         margin-bottom: 0;
@@ -81,6 +78,10 @@
 
     .about__text {
         font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .about__button .btn_bordered {
         margin-bottom: 20px;
     }
 
@@ -112,12 +113,13 @@
     }
 
     .footer {
-        gap: 10px;
+        gap: 0;
         padding: 20px;
     }
 
     .contacts-list {
         gap: 10px;
+        padding: 0;
     }
 
     .contacts-list__link {
@@ -126,5 +128,76 @@
 }
 
 @media screen and (max-width: 510px) {
+    .center {
+        padding-left: calc(50vw - 100px);
+        padding-right: calc(50vw - 100px);
+    }
+
+    .about img {
+        width: 200px;
+        padding: 0;
+    }
+
+    .about__button .btn {
+        margin: 0;
+    }
+
+    .about__button .btn_bordered {
+        margin-bottom: 20px;
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .subtitle {
+        margin-bottom: 0;
+        font-size: 28px;
+    }
+
+    .contact-form .subtitle {
+        margin-bottom: 0;
+    }
+
+    .contact-form__input {
+        min-height: 40px;
+    }
+
+    .contact-form__select-item {
+        min-height: 40px;
+    }
+
+    .contact-form__checkbox {
+        font-size: 12px;
+    }
+
+    .subscribe-form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subscribe-form__input {
+        min-width: 200px;
+    }
+
+    .subscribe-form__btn {
+        min-width: 200px;
+        font-size: 14px;
+    }
+
+    .subscribe-form__checkbox {
+        font-size: 12px;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .contacts-list {
+        justify-content: center;
+        padding: 0;
+    }
 
 }
